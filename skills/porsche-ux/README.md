@@ -1,8 +1,8 @@
 # Authoring Skills
 
 Contributor reference for **creating and extending** Porsche UX skills.
-For setup and usage, see the [main README](../README.md).
-For the live list of available skills, see [porsche-ux-workflow](./porsche-ux/porsche-ux-workflow/SKILL.md).
+For setup and usage, see the [main README](../../README.md).
+For the live list of available skills, see [porsche-ux-workflow](./porsche-ux-workflow/SKILL.md).
 
 > **Naming convention:** every Porsche skill folder starts with `porsche-` so it
 > stays clearly separable from your own and public (e.g. skills.sh) skills in the
@@ -15,7 +15,7 @@ For the live list of available skills, see [porsche-ux-workflow](./porsche-ux/po
 
 ## MCP setup guides
 
-MCP setup lives in **[porsche-ux-workflow/SKILL.md](./porsche-ux/porsche-ux-workflow/SKILL.md)** under the **MCP Setup** section — not in separate tool files.
+MCP setup lives in **[porsche-ux-workflow/SKILL.md](./porsche-ux-workflow/SKILL.md)** under the **MCP Setup** section — not in separate tool files.
 
 This means setup instructions are versioned, installed together with the skills, and reachable by simply asking the AI *"How do I set up the Figma MCP?"*.
 
@@ -201,7 +201,7 @@ Some things have a deliberate home. If you need to reference them, **link, don't
 | Active skill list + phase overview | `porsche-ux-workflow/SKILL.md` |
 | MCP setup instructions | `porsche-ux-workflow/SKILL.md` → MCP Setup section |
 | Cost transparency formula + rules | `porsche-ux-workflow/SKILL.md` → Cost Transparency section |
-| Authoring conventions | `skills/README.md` (this file) |
+| Authoring conventions | `skills/porsche-ux/README.md` (this file) |
 | User-facing setup + onboarding | root `README.md` |
 
 Repeating these elsewhere creates maintenance debt — the next update will miss the copy.
