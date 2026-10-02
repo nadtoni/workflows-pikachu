@@ -4,7 +4,7 @@
  * Converts a Markdown file into a standalone PDS HTML presentation.
  *
  * Usage (run from PDS Presentation (Skill)/ root):
- *   node skills/pds-html-presentation/build-slides.mjs presentations/test.md
+ *   node skills/porsche-ux/porsche-pds-html-presentation/build-slides.mjs presentations/test.md
  *
  * Markdown format:
  *   - `---` on its own line = slide separator

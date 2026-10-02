@@ -33,7 +33,7 @@ Do **NOT** use for:
 - Vite + React 19 + TypeScript
 - Tailwind 4 with PDS tokens via `@porsche-design-system/components-react/tailwindcss`
 - `@porsche-design-system/components-react@4.2.0-rc.2`
-- Boilerplate is vendored under `skills/porsche-ux-prototype/template/` and pinned to PDS RC2 (`4.2.0-rc.2`).
+- Boilerplate is vendored under `skills/porsche-ux/porsche-ux-prototype/template/` and pinned to PDS RC2 (`4.2.0-rc.2`).
 
 ## Global rules (always apply)
 
@@ -1099,7 +1099,7 @@ nested layouts.
 │       ├── models/colorScheme.ts
 │       └── components/common/ColorSchemeSelect.tsx
 ├── prototypes/<slug>/        ← generated output, one folder per prototype
-└── skills/porsche-ux-prototype/SKILL.md  ← this file
+└── skills/porsche-ux/porsche-ux-prototype/SKILL.md  ← this file
 ```
 
 The skill repo lives at the workspace root. Resolve `<SKILL_ROOT>` as the
