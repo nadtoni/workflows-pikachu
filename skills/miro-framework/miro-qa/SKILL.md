@@ -14,7 +14,7 @@ whole-team work, not a final lane where QA absorbs every unknown.
 
 ## Entry and prerequisites
 
-Follow [miro-usage](../SKILL.md), including role/framework/style kickoff.
+Follow [miro-framework](../SKILL.md), including role/framework/style kickoff.
 Read [Agile foundations](../references/agile-foundations.md),
 [board operations](../references/board-operations.md), and
 [design and facilitation](../references/design-and-facilitation.md).

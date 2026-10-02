@@ -14,7 +14,7 @@ that an attractive architecture has been implemented or tested.
 
 ## Entry and prerequisites
 
-Follow [miro-usage](../SKILL.md), including framework, objective, audience,
+Follow [miro-framework](../SKILL.md), including framework, objective, audience,
 artifact type, and style. Read
 [Agile foundations](../references/agile-foundations.md),
 [board operations](../references/board-operations.md), and

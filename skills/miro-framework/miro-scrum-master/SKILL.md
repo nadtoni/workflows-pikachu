@@ -15,7 +15,7 @@ manager reporting, task assignment, or a substitute for team decisions.
 
 ## Entry and prerequisites
 
-First follow [miro-usage](../SKILL.md), including its role/framework/style kickoff.
+First follow [miro-framework](../SKILL.md), including its role/framework/style kickoff.
 Read [Agile foundations](../references/agile-foundations.md),
 [board operations](../references/board-operations.md), and
 [design and facilitation](../references/design-and-facilitation.md).

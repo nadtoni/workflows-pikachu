@@ -14,7 +14,7 @@ Beautiful boards must not turn assumptions into research findings.
 
 ## Entry and prerequisites
 
-Follow [miro-usage](../SKILL.md) first, including working role, framework,
+Follow [miro-framework](../SKILL.md) first, including working role, framework,
 objective, artifact type, and style. Read
 [Agile foundations](../references/agile-foundations.md),
 [board operations](../references/board-operations.md), and

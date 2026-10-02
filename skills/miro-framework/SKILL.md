@@ -1,5 +1,5 @@
 ---
-name: miro-usage
+name: miro-framework
 description: >
   Use a Miro board through Miro MCP with role-specific Agile playbooks. Ask the
   user's working role, framework, objective, and style before routing to Scrum
@@ -8,7 +8,7 @@ description: >
   items", "Miro nutzen", "Miro-Board bearbeiten", or "Workshop vorbereiten".
 ---
 
-# Miro Usage
+# Miro Framework
 
 Build useful collaboration spaces and evidence-based artifacts on the user's
 board, not decorative templates or invented team decisions.

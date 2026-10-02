@@ -14,7 +14,7 @@ actual product decisions explicit.
 
 ## Entry and prerequisites
 
-Follow [miro-usage](../SKILL.md) and its framework-neutral kickoff first.
+Follow [miro-framework](../SKILL.md) and its framework-neutral kickoff first.
 Read [Agile foundations](../references/agile-foundations.md),
 [board operations](../references/board-operations.md), and
 [design and facilitation](../references/design-and-facilitation.md).
