@@ -2,7 +2,7 @@
 
 Contributor reference for **creating and extending** Porsche UX skills.
 For setup and usage, see the [main README](../README.md).
-For the live list of available skills, see [porsche-ux-workflow](./porsche-ux-workflow/SKILL.md).
+For the live list of available skills, see [porsche-ux-workflow](./porsche-ux/porsche-ux-workflow/SKILL.md).
 
 > **Naming convention:** every Porsche skill folder starts with `porsche-` so it
 > stays clearly separable from your own and public (e.g. skills.sh) skills in the
@@ -15,7 +15,7 @@ For the live list of available skills, see [porsche-ux-workflow](./porsche-ux-wo
 
 ## MCP setup guides
 
-MCP setup lives in **[porsche-ux-workflow/SKILL.md](./porsche-ux-workflow/SKILL.md)** under the **MCP Setup** section — not in separate tool files.
+MCP setup lives in **[porsche-ux-workflow/SKILL.md](./porsche-ux/porsche-ux-workflow/SKILL.md)** under the **MCP Setup** section — not in separate tool files.
 
 This means setup instructions are versioned, installed together with the skills, and reachable by simply asking the AI *"How do I set up the Figma MCP?"*.
 
@@ -144,7 +144,7 @@ When skills overlap, references should be explicit and minimal.
 
 When promoting an `idea.md` draft to a real `SKILL.md`, complete every applicable item before requesting review:
 
-- [ ] Create `skills/porsche-<name>/SKILL.md` with valid YAML frontmatter (`name`, `description`)
+- [ ] Create `skills/porsche-ux/porsche-<name>/SKILL.md` with valid YAML frontmatter (`name`, `description`)
 - [ ] Add the skill name to `SKILL_NAMES` in `bin/cli.mjs` — **without this the skill is never installed**
 - [ ] Add the skill to the `skills:` list in `agents/porsche-ux.agent.md` so the bundled agent includes it
 - [ ] Add the skill to the active list in the root `README.md` with a short user-facing description

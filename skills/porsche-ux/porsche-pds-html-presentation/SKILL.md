@@ -19,12 +19,12 @@ This skill covers two output types:
 ### For slide decks → use the Slide Builder
 
 1. Write content in `presentations/[name].md`
-2. Run: `node skills/pds-html-presentation/build-slides.mjs presentations/[name].md`
+2. Run: `node skills/porsche-ux/porsche-pds-html-presentation/build-slides.mjs presentations/[name].md`
 3. Output: `presentations/[name].html` — open in browser
 
 ### For dashboards / reports → assemble HTML manually
 
-1. Read the cached PDS partials from `skills/pds-html-presentation/.pds-cache/`:
+1. Read the cached PDS partials from `skills/porsche-ux/porsche-pds-html-presentation/.pds-cache/`:
    - `head.html` — `@font-face` declarations + font preloads + meta tags (inject into `<head>`)
    - `body.html` — PDS loader script (inject before closing `</body>`)
    - `global.css` — design tokens + base styles (inject into `<style>`)
@@ -34,7 +34,7 @@ This skill covers two output types:
 
 If `.pds-cache/` is missing, regenerate (run from `` root):
 ```bash
-SKILL=skills/pds-html-presentation
+SKILL=skills/porsche-ux/porsche-pds-html-presentation
 node $SKILL/pds-partials.mjs --head > $SKILL/.pds-cache/head.html
 node $SKILL/pds-partials.mjs --body > $SKILL/.pds-cache/body.html
 node $SKILL/pds-partials.mjs --css  > $SKILL/.pds-cache/global.css
@@ -44,12 +44,12 @@ node $SKILL/pds-partials.mjs --css  > $SKILL/.pds-cache/global.css
 
 ## Slide Builder (`build-slides.mjs`)
 
-Located at `skills/pds-html-presentation/build-slides.mjs`.
+Located at `skills/porsche-ux/porsche-pds-html-presentation/build-slides.mjs`.
 
 ### Run
 ```bash
 # From porsche-ux/ root:
-node skills/pds-html-presentation/build-slides.mjs presentations/my-deck/my-deck.md
+node skills/porsche-ux/porsche-pds-html-presentation/build-slides.mjs presentations/my-deck/my-deck.md
 # → outputs: presentations/my-deck/my-deck.html
 ```
 
@@ -264,7 +264,7 @@ All tokens use `light-dark()` — they auto-switch with `color-scheme: light dar
 ## PDS Web Components
 
 **IMPORTANT**: Before using any PDS component prop, check the auto-generated API reference at:
-`skills/pds-html-presentation/.pds-cache/components.json`
+`skills/porsche-ux/porsche-pds-html-presentation/.pds-cache/components.json`
 
 This file is generated from the installed PDS package and contains all valid prop values for every component.
 Re-run `refresh-cache.sh` to update after a PDS version change.
