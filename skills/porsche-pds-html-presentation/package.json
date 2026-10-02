@@ -1,0 +1,9 @@
+{
+  "name": "pds-html-presentation-cache-builder",
+  "private": true,
+  "type": "module",
+  "description": "Dev dependency for rebuilding the PDS partials cache. Not needed for using the skill.",
+  "dependencies": {
+    "@porsche-design-system/components-js": "4.2.0-rc.2"
+  }
+}
